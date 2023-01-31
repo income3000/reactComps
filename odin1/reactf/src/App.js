@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Todo from './components/Todo';
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,7 @@ function App() {
       <input type="date" />
       <input type="text" placeholder='write here'/>
       <br />
-      
+      <Todo />
       <footer>where am i</footer>
     </div>
   );
